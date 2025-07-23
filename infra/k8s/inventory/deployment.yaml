@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: inventory-service
-          image: olymahmudmugdho/inventory-service:80626aff1a64945b5224a6076d94b7bff58d4eb5
+          image: olymahmudmugdho/inventory-service:e93f510bbb22263d6c50805a23da475c7bf7c7fe
           ports:
             - containerPort: 8080
           envFrom:
